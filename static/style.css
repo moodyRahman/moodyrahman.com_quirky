@@ -1,0 +1,118 @@
+@import url("/base.css");
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-display: swap;
+  src: url(https://moodyrahman.com/files/fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_gPq_SeW4Ep0.woff2)
+    format("woff2");
+}
+
+p {
+  margin: 0px;
+}
+
+.recolor_icon {
+  filter: invert(23%) sepia(8%) saturate(2625%) hue-rotate(181deg)
+    brightness(94%) contrast(87%);
+  aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+
+  .things {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .recolor_icon {
+    width: 30px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  footer {
+    z-index: 2;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .recolor_icon {
+    width: 2%;
+  }
+}
+
+@media (max-height: 700px) {
+  footer {
+    display: none;
+  }
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 75%;
+}
+
+.proj-link {
+  width: auto;
+  height: auto;
+  background: var(--accent);
+  color: var(--bg-color);
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.proj-link:hover {
+  filter: brightness(150%);
+}
+
+
+.tool-tip {
+  display: none;
+  color: var(--bg-color);
+  font-size: 0.7em;
+  width: 75%;
+}
+
+/* .tool-tip > *:nth-child(1) {
+  width: 75%;
+} */
+
+.tool-tip > *:nth-child(2) {
+  font-style: italic;
+}
+
+.fa-reddit {
+  background: var(--bg-color);
+  color: var(--icon);
+}
+
+.fa-github-alt {
+  background: var(--bg-color);
+  color: var(--icon);
+}
+
+.fa-linkedin {
+  background: var(--bg-color);
+  color: var(--icon);
+}

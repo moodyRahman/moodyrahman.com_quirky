@@ -1,0 +1,248 @@
+<div class="section">
+	<p>
+		hi friends! my name is
+		<span class="highlight">moody</span>(they/them) <span class="highlight">:)</span>
+	</p>
+	<p>
+		im a queer software engineer and web infrastructure enthusiast from NYC, just doing my thing:
+	</p>
+	<p class="things">
+		skating <br />
+		boxing <br />
+		cooking <br />
+		building CI/CD pipelines until i die <br />
+	</p>
+</div>
+<div class="section">
+	<p>hackNY '22</p>
+	<p>cuny hunter | daedalus honors cohort '24</p>
+	<p>stuyvesant highschool '20</p>
+</div>
+
+<div class="section">
+	<h4>some of my stuff</h4>
+	<div class="projects">
+		<a class="proj-link" href="https://moodyrahman.com/files/moody_rahman_resume.pdf"
+			>resume
+			<div class="tool-tip">
+				<div>a summary of all my professional experiences and skills</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" id="lucky" href="javascript:void(0);">
+			<span>
+				im feelin'
+				<i>lucky</i>
+			</span>
+			<div class="tool-tip">
+				<div>
+					all the colors are wcag aa compliant! i wrote this cool script to automatically audit all
+					the colors for contrast acessibility too.
+				</div>
+				<div>try your luck again!</div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://moodyrahman.com/pgp.txt"
+			>public pgp key
+			<div class="tool-tip">
+				<div>use this pgp key to contact me should the need arise</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://bleg.moodyrahman.com/"
+			>moody's head hurts: blog
+			<div class="tool-tip">
+				<div>
+					My blog! It's mostly a stream consciousness about boxing, destiny 2, programming, and
+					whatever asinine thing pops into my head.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://chip8.moodyrahman.com/"
+			>sv8: a chip8 emulator
+			<div class="tool-tip">
+				<div>
+					computer science capstone project. me and two teammates built an emulator for the Chip-8,
+					a fully online interface for the emulator, a debugger, and an IDE. The debugger consists
+					of a UI that displays the currently executing ROM, the CPU register states, and the
+					ability to adjust CPU speed in real-time. The IDE features an assembler that compiles
+					source code directly into the web emulator, and additional tooling to aid in development.
+					The frontend was implemented in Svelte, with the emulator implemented in AssemblyScript
+					that compiled to WebAssembly.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://1kv.moodyrahman.com/"
+			>one thousand voices
+			<div class="tool-tip">
+				<div>
+					1kv is a still under development showcase of all my destiny 2 clips, complete with
+					descriptions of why something was clip-worthy. build with sveletekit, it queries into my
+					CMS (https://strapi.moodyrahman.com/) at compile time and generates all the HTML then
+					(SSG). the ultimate goal for this project is to design a pipeline such that I can upload a
+					clip, and it'll automatically compress the video, generate a thumbnail for it, and create
+					its corresponding entry in the CMS. Thinking about porting it over to use youtube instead
+					of hosting the clips here because YT is so much better at handling videos than me.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://moodyrahman.com/files/"
+			>hosted files
+			<div class="tool-tip">
+				<div>
+					my file server! it's a convenient way to share files and host resources for the public.
+					everything here corresponds to a folder in my server, and nginx will automatically index
+					into that folder. also features a few private folders that are behind a username and
+					password.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://moodyrahman.com/hackny/"
+			>hackNY
+			<div class="tool-tip">
+				<div>
+					hackNY is a fellowship i was a part of in 2022. as an alumni of hackNY, I'm also currently
+					the Speaker Series Director for the 2023 fellowship. behind this link are a few resources
+					about my application to hackNY and how I feel about them.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<!-- <a class="proj-link" href="https://www.moodyrahman.com/coways/">FP conway's game of life in react
+        <div class="tool-tip">hello</div>
+      </a> -->
+
+		<a class="proj-link" href="https://moodyrahman.com/flunge"
+			>flunge
+			<div class="tool-tip">
+				<div>
+					A simple interval timer for boxing, features an alarm to warn when a round is almost over,
+					and then an alarm for the round being over. Also a Progressive Web App that I implemented
+					in Sveltekit. Primarily meant to be viewed on mobile.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://isoeis.moodyrahman.com/"
+			>🪒ISOEIS
+			<div class="tool-tip">
+				<div>
+					🪒 Is Searching the Online Encyclopedia of Integer Sequences is a self referential
+					acronym, much like PHP. it's a fun project me and some classmates made during highschool
+					that visualizes several different integer sequences that have three common elements <br />
+					[VIEW ON PC PLEASE]
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a href="https://moodyrahman.com/inserthexcode/" class="proj-link"
+			>a color palette tester
+			<div class="tool-tip">
+				<div>
+					i have a very particular sense of aesthetic that's very evident by the design of my site.
+					this is a little utility that helps me rapidly try new colors without needing to write
+					css. it also encodes a given palette into the URL, creating a hard URL for any and every
+					palette.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<!-- <a href="https://moodyrahman.com/395_webdev/" class="proj-link">CS 395 Web Development</a> -->
+
+		<a class="proj-link" href="https://moodyrahman.com/files/moody.xslt"
+			>nginx autoindex xslt
+			<div class="tool-tip">
+				<div>
+					autoindexed directories are pretty ugly, as anyone who's ever browsed a package repo is
+					painfully aware of. one of the more well documented ways of styling an nginx generated
+					autoindexed directory is via XSLT (eXtensible Stylesheet Language Transformations). here
+					is the xslt code I wrote to handle my file server.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://jolyne.tail5b1a8.ts.net/"
+			>jenkins
+			<div class="tool-tip">
+				<div>
+					with any luck, no one other than me should be able to access this particular resource.
+					jenkins is only acessible by being in a VPN with the server, which I've accomplished with
+					TailScale.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://jodio.tail5b1a8.ts.net"
+			>bitwarden
+			<div class="tool-tip">
+				<div>
+					with any luck, no one other than me should be able to access this particular resource.
+					bitwarden is only acessible by being in a VPN with the server, which I've accomplished
+					with TailScale.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://glances.moodyrahman.com/"
+			>docker monitoring
+			<div class="tool-tip">
+				<div>a cool looking page that shows all my current docker containers and their states.</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://moodyrahman.com/babylon/"
+			>babylon lost
+			<div class="tool-tip">
+				<div>
+					my final paper for my science fiction writing class when i was a senior in high school.
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+
+		<a class="proj-link" href="https://chest.moodyrahman.com/help"
+			>chest
+			<div class="tool-tip">
+				<div>
+					my oldest and proudest project. the love child between me and my pandemic d&d group, it's
+					a clean and elegant multi-character inventory manager with a dice roll tracker <br />
+					open project ->
+				</div>
+			</div>
+		</a>
+
+		<a href="https://moodyrahman.com/395_webdev/hexcalculator/" class="proj-link"
+			>hex calculator
+			<div class="tool-tip">
+				<div>
+					nothing crazy, just a simple little hex calculator app meant for desktops. an assignment
+					from when I took webdev. <br /> [VIEW ON PC PLEASE]
+				</div>
+				<div>open project -></div>
+			</div>
+		</a>
+	</div>
+</div>
+
+<style>
+	@import '/style.css';
+</style>
